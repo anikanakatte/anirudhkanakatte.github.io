@@ -16,15 +16,13 @@ hr {
 	background-color: #7C3030;
 	border-width: 3px; 
 }
+.faded {
+	color: rgba(255,255,255,0.8);
+}
 header.startup hr {
 	margin-top: 200px;
 	margin-bottom: 40px;
 }
-
-.faded {
-	color: rgba(255,255,255,0.8);
-}
-
 .btn {
 	background-color: #7C3030 ;
 	border: 1px solid #7C3030;
