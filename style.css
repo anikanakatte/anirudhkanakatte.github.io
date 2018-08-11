@@ -1,15 +1,10 @@
-body, html {
+body,
+ html {
 	width: 100%;
 	height: 100%;
 }
 body {		
 	font-family: 'Montserrat', sans-serif;	
-}
-header.startup {
-	background-position: center;
-	background-image: url("header.jpg");
-	background-size: cover;
-	height: 100%;
 }
 hr {
 	max-width: 65px;
@@ -19,23 +14,41 @@ hr {
 .faded {
 	color: rgba(255,255,255,0.8);
 }
+
+header.startup {
+	background-position: center;
+	background-image: url("header.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+
 header.startup hr {
 	margin-top: 200px;
 	margin-bottom: 40px;
 }
-.btn {
-	background-color: #7C3030 ;
-	border: 1px solid #7C3030;
-	border-radius: 25px;
+header.startup h1 {
+	font-size: 2rem;
+}
+
+.btn {	
+	font-weight: 700;	
+	border-radius: 300px;
 	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .btn-xl {
 	padding: 1em 2em;
 }
 
+.btn-primary {
+	background-color: #7C3030;
+	border-color: #7C3030;
+}
+
 .btn-primary:hover {
-	border-width: 3px;
+	border-width: 5px;
 	cursor: pointer;
 	background-color: #A63840;
 	border-color: #A63840;
